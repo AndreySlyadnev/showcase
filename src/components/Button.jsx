@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
-import styles from "../styles/Global";
+import styles from '../styles/Global';
 
 const Button = ({ assetUrl, link }) => {
   return (
-    <div
+    <div 
       className={styles.btnBlack}
       onClick={() => window.open(link, "_blank")}
     >
@@ -14,7 +14,7 @@ const Button = ({ assetUrl, link }) => {
         <p className={`${styles.btnText} font-bold text-sm`}>Expo Store</p>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Button;
+export default Button
